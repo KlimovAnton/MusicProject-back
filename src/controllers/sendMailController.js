@@ -8,6 +8,6 @@ export const sendMailController = async (req, res, next) => {
     res.json({
         status: 200,
         message: 'New order',
-        data: data,
+        data: send,
       });
 }
